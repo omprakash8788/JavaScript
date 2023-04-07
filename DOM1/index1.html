@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h5 id="team">IPL team members</h5>
+    <p> I am om</p>
+    <p> I am prakash</p>
+    <p> I am rohit</p>
+    <p> I am virat</p>
+    <p id="dhoni"> I am dhoni</p>
+    
+</body>
+</html>
+<script>
+    // getElementById
+    // className, tagName, Universal, combinators
+
+    // querySelector- querySelector is combination of all selector
+
+    // querySelector will select only 1st element which it matches
+//  document.querySelector("#dhoni").style.c"olor="red"
+
+//  document.querySelector("p").style.fontSize="30px"
+
+//  document.querySelectorAll("p").style.fontSize="40px" // it given error 
+let pArray=(document.querySelectorAll("p"))
+console.log(pArray);
+console.log(pArray[0]);
+
+for(let i=0; i<pArray.length; i++){
+    
+
+        pArray[i].style.color="blue";
+    
+}
+// querySelector will return only one element
+// querySelectorall will return node list(array)
+
+</script>
